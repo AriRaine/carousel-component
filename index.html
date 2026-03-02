@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <title>Carousel</title>
+</head>
+
+<body>
+  <div class="container">
+    <h3>Posts</h3>
+
+    <section class="carousel" aria-label="Carrossel">
+      <input id="s0" name="slide" type="radio" checked>
+      <input id="s1" name="slide" type="radio">
+      <input id="s2" name="slide" type="radio">
+      <input id="s3" name="slide" type="radio">
+      <input id="s4" name="slide" type="radio">
+
+      <div class="viewport">
+      
+        <div class="nav s0" aria-hidden="true">
+          <label class="next" for="s1" title="Próximo"></label>
+        </div>
+        <div class="nav s1" aria-hidden="true">
+          <label class="prev" for="s0" title="Anterior"></label>
+          <label class="next" for="s2" title="Próximo"></label>
+        </div>
+        <div class="nav s2" aria-hidden="true">
+          <label class="prev" for="s1" title="Anterior"></label>
+          <label class="next" for="s3" title="Próximo"></label>
+        </div>
+        <div class="nav s3" aria-hidden="true">
+          <label class="prev" for="s2" title="Anterior"></label>
+          <label class="next" for="s4" title="Próximo"></label>
+        </div>
+        <div class="nav s4" aria-hidden="true">
+          <label class="prev" for="s3" title="Anterior"></label>
+        </div>
+
+        <div class="track">
+
+          <article class="post-card">
+            <a class="thumb-wrap" href="https://www.typofx.ie/">
+              <img src="assets/img1.jpeg" alt="Post 1">
+              <span class="thumb-overlay" aria-hidden="true">
+                <span class="eye">👁</span><span class="read">Read More</span>
+              </span>
+            </a>
+            <a class="cat" href="#careers">Careers</a>
+            <a class="title-link" href="https://www.typofx.ie/"><h5 class="title">Tecnologia que vira identidade</h5></a>
+            <div class="meta">📅 7 Feb 2023 • 💬 55</div>
+          </article>
+
+          <article class="post-card">
+            <a class="thumb-wrap" href="https://www.typofx.ie/">
+              <img src="assets/img2.jpg" alt="Post 2">
+              <span class="thumb-overlay" aria-hidden="true">
+                <span class="eye">👁</span><span class="read">Read More</span>
+              </span>
+            </a>
+            <a class="cat" href="#education">Education</a>
+            <a class="title-link" href="https://www.typofx.ie/"><h5 class="title">Onde a tecnologia ganha uma segunda vida</h5></a>
+            <div class="meta">📅 12 Aug 2023 • 💬 39</div>
+          </article>
+
+          <article class="post-card">
+            <a class="thumb-wrap" href="https://www.typofx.ie/">
+              <img src="assets/img3.jpg" alt="Post 3">
+              <span class="thumb-overlay" aria-hidden="true">
+                <span class="eye">👁</span><span class="read">Read More</span>
+              </span>
+            </a>
+            <a class="cat" href="#psychology">Psychology</a>
+            <a class="title-link" href="https://www.typofx.ie/"><h5 class="title">Precisão, foco e reparo em nível profissional</h5></a>
+            <div class="meta">📅 21 Dec 2023 • 💬 61</div>
+          </article>
+
+          <article class="post-card">
+            <a class="thumb-wrap" href="https://www.typofx.ie/">
+              <img src="assets/img4.jpeg" alt="Post 4">
+              <span class="thumb-overlay" aria-hidden="true">
+                <span class="eye">👁</span><span class="read">Read More</span>
+              </span>
+            </a>
+            <a class="cat" href="#lifestyle">Lifestyle</a>
+            <a class="title-link" href="https://www.typofx.ie/"><h5 class="title">Detalhes invisíveis que fazem tudo funcionar</h5></a>
+            <div class="meta">📅 05 Jan 2024 • 💬 18</div>
+          </article>
+
+          <article class="post-card">
+            <a class="thumb-wrap" href="https://www.typofx.ie/">
+              <img src="assets/img5.png" alt="Post 5">
+              <span class="thumb-overlay" aria-hidden="true">
+                <span class="eye">👁</span><span class="read">Read More</span>
+              </span>
+            </a>
+            <a class="cat" href="#health">Health</a>
+            <a class="title-link" href="https://www.typofx.ie/"><h5 class="title">Conectando o físico ao digital</h5></a>
+            <div class="meta">📅 18 Jan 2024 • 💬 12</div>
+          </article>
+
+          <article class="post-card">
+            <a class="thumb-wrap" href="https://www.typofx.ie/">
+              <img src="assets/img6.png" alt="Post 6">
+              <span class="thumb-overlay" aria-hidden="true">
+                <span class="eye">👁</span><span class="read">Read More</span>
+              </span>
+            </a>
+            <a class="cat" href="#health">Health</a>
+            <a class="title-link" href="https://www.typofx.ie/"><h5 class="title">Diagnóstico avançado em eletrônica</h5></a>
+            <div class="meta">📅 18 Jan 2024 • 💬 12</div>
+          </article>
+
+          <article class="post-card">
+            <a class="thumb-wrap" href="https://www.typofx.ie/">
+              <img src="assets/img7.jpg" alt="Post 7">
+              <span class="thumb-overlay" aria-hidden="true">
+                <span class="eye">👁</span><span class="read">Read More</span>
+              </span>
+            </a>
+            <a class="cat" href="#health">Health</a>
+            <a class="title-link" href="https://www.typofx.ie/"><h5 class="title">Cirurgia eletrônica de alta precisão</h5></a>
+            <div class="meta">📅 18 Jan 2024 • 💬 12</div>
+          </article>
+
+        </div>
+      </div>
+
+      <div class="dots" aria-label="Navegação do carrossel">
+        <label class="dot" for="s0" aria-label="Slide 1"></label>
+        <label class="dot" for="s1" aria-label="Slide 2"></label>
+        <label class="dot" for="s2" aria-label="Slide 3"></label>
+        <label class="dot" for="s3" aria-label="Slide 4"></label>
+        <label class="dot" for="s4" aria-label="Slide 5"></label>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
