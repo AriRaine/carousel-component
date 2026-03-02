@@ -9,4 +9,4 @@ Projeto simples de carousel desenvolvido apenas com HTML e CSS para prática de 
 
 ## Observação
 
-Exercício prático desenvolvido para estudo e aprimoramento em desenvolvimento web.
+Exercício prático desenvolvido para @TypoFX e aprimoramento em desenvolvimento web.
